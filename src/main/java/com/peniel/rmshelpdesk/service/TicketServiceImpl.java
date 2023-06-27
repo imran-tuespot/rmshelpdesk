@@ -176,7 +176,7 @@ public class TicketServiceImpl implements TicketService {
 		ticket.setSub_category_type(String.valueOf(json.getString("Sub_category_type")));
 		ticket.setTo_email(String.valueOf(json.getString("to_email")));
 		ticket.setContact_Type(String.valueOf(json.getString("contact_Type")));
-		ticket.setDepartment(json.getString("department"));
+		ticket.setDepartment(String.valueOf(json.getString("department")));
 		ticket.setTicket_title(String.valueOf(json.getString("Ticket_title")));
 		CommentLog clog = new CommentLog();
 		Set<CommentLog> clogset = new HashSet<CommentLog>();

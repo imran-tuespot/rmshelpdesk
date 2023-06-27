@@ -54,6 +54,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 		"/rmshd/discussion",
                 		"/rmshd/getSubCategory",
                 		"/rmshd/getContactType",
+                		"/rmshd/getDepartments",
                 		"/rmshd/editTicketStatus",
                 		"/role/getauthotp",
                 		"/rmshd/getAllTickeData",
